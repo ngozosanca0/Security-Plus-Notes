@@ -41,3 +41,19 @@ CIA TRIAD SIMPLE EXAMPLE USING BANK VAULT
 - Confidentiality: Only authorized people open the vault
 - Integrity: Money inside is untouched and accurate
 - Availability: Vault can be accessed when needed
+
+## Day 3: AAA and Active Directory 
+
+AAA
+
+AUTHENTICATION 
+- Verifying your identity.
+- the system checks "are you really who you claim to be"
+- real world example: you swipe your employee badge and enter password
+- the system verifies your badge and password,  that is authentication. 
+
+AUTHORIZATION 
+- determining what you are allowed to access or do.
+- real life example: HR Manager can access salaries and employee records and receptionist cannot access those files.
+• Both are authenticated, but their authorization differs.
+
