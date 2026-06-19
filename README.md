@@ -54,6 +54,6 @@ AUTHENTICATION
 
 AUTHORIZATION 
 - determining what you are allowed to access or do.
-- real life example: HR Manager can access salaries and employee records and receptionist cannot access those files.
-• Both are authenticated, but their authorization differs.
+- real life example: HR Manager can access salaries and employee records but receptionist cannot access those files.
+- Both are authenticated, but their authorization differs.
 
