@@ -57,3 +57,30 @@ AUTHORIZATION
 - real life example: HR Manager can access salaries and employee records but receptionist cannot access those files.
 - Both are authenticated, but their authorization differs.
 
+ACCOUNTING 
+- Tracking and recording user activity. 
+- real-world example: an administrator deletes files at 2AM, accounting logs show who did it, when and from which device.
+- accounting matters because it helps with investigations, compliance, detecting insider threats and non-repudiation. 
+
+
+ACTIVE DIRECTORY 
+
+WINDOW DOMAIN 
+- is a way to connect all company computers to one central management system. 
+- instead of each computer being independent, they all “report” to one main server.
+- that main server is called the: Domain Controller (DC).
+
+DOMAIN CONTROLLER
+- the server that runs active directory
+- it stores: User accounts, Passwords, Permissions, Security policies, Device rules, Access rights. 
+- it controls all computers connected to the domain.
+
+ACTIVE DIRECTORY
+- is the database/service running on the Domain Controller.
+- it stores all network information.
+- it keeps track of: Users. 
+- Examples: John, Sarah, Admin1, FinanceManager
+- It stores their: Usernames, Passwords, Access permissions, Roles.
+• It knows every company computer: Reception-PC. Finance-PC, CEO-Laptop, HR-PC. 
+• You can organize users into departments: HR, IT, Finance, Sales. Then apply rules to the whole group.
+
