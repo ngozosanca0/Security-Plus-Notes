@@ -145,3 +145,38 @@ ORGANIZATIONAL UNIT
 - all in all: OU is a container within Active Directory used to organize users, computers, and groups. It helps administrators manage resources, apply Group Policies, and delegate administrative permissions efficiently.
 
 
+## Day 5 
+
+CHANGE MANAGEMENT 
+
+- Definition: a structured process for making changes to an IT environment while minimizing risk.
+- think of it like this: You don't just wake up and decide to restart a hospital server at 10 a.m. on a Monday.
+- You plan it.
+- You communicate it.
+- You prepare for problems.
+- Then you make the change.
+
+CHANGE MANAGEMENT PROCESS
+
+Business Processes
+- Understand how the company operates before making changes.
+- Example: Don't update a hospital system during busy clinic hours.
+
+Impact Analysis 
+- Ask: "What could break if we make this change?"
+- Example: Updating a server could affect: SAP EMED, Printers and User logins. 
+
+Blackout plan (Rollback Plan)
+- If the update fails...How do you return everything to the previous working state?
+- Never make changes without a rollback plan.
+
+Maintenance Window
+- A scheduled time to perform changes.
+- Usually: Night, Weekend, Public Holiday
+- When fewer users are affected.
+
+Standard Operating Procedure (SOP)
+- A documented set of steps.
+- Example: How to create a user. How to reset a password. How to install software.
+- Everyone follows the same procedure.
+
