@@ -42,7 +42,9 @@ CIA TRIAD SIMPLE EXAMPLE USING BANK VAULT
 - Integrity: Money inside is untouched and accurate
 - Availability: Vault can be accessed when needed
 
-## Day 3: AAA and Active Directory 
+## Day 3 
+
+## Security+
 
 AAA
 
@@ -63,7 +65,7 @@ ACCOUNTING
 - accounting matters because it helps with investigations, compliance, detecting insider threats and non-repudiation. 
 
 
-ACTIVE DIRECTORY 
+## Active Directory 
 
 WINDOW DOMAIN 
 - is a way to connect all company computers to one central management system. 
@@ -81,10 +83,12 @@ ACTIVE DIRECTORY
 - it keeps track of: Users. 
 - Examples: John, Sarah, Admin1, FinanceManager
 - It stores their: Usernames, Passwords, Access permissions, Roles.
-• It knows every company computer: Reception-PC. Finance-PC, CEO-Laptop, HR-PC. 
-• You can organize users into departments: HR, IT, Finance, Sales. Then apply rules to the whole group.
+- It knows every company computer: Reception-PC. Finance-PC, CEO-Laptop, HR-PC. 
+- You can organize users into departments: HR, IT, Finance, Sales. Then apply rules to the whole group.
 
 ## Day 4
+
+## Security+
 
 NON-REPUDIATION 
 - means a person cannot deny performing an action.
@@ -126,7 +130,7 @@ DEFENSE IN DEPTH
 - firewalls can be bypassed, Passwords can be stolen, users can click phishing links, and antivirus can miss malware.
 - core idea: if one security control fails, others still protect the system. 
 
-ACTIVE DIRECTORY 
+## Active Directory 
 
 ORGANIZATIONAL UNIT
 - is like a folder that helps you organize users, computers, and groups inside a company.
@@ -147,6 +151,8 @@ ORGANIZATIONAL UNIT
 
 ## Day 5 
 
+## Security+
+
 CHANGE MANAGEMENT 
 
 - Definition: a structured process for making changes to an IT environment while minimizing risk.
@@ -166,7 +172,7 @@ Impact Analysis
 - Ask: "What could break if we make this change?"
 - Example: Updating a server could affect: SAP EMED, Printers and User logins. 
 
-Blackout plan (Rollback Plan)
+Backout plan (Rollback Plan)
 - If the update fails...How do you return everything to the previous working state?
 - Never make changes without a rollback plan.
 
@@ -179,4 +185,14 @@ Standard Operating Procedure (SOP)
 - A documented set of steps.
 - Example: How to create a user. How to reset a password. How to install software.
 - Everyone follows the same procedure.
+
+## Active Directory 
+
+USER ACCOUNT
+- User account is a digital identity that Active Directory creates for a person so they can log in and use company resources.
+- Just like you need an ID card to enter certain buildings, you need a user account to access a company's computers, files, email, printers, and applications.
+- every user account stores information about that person.
+- Examples: First name, Last name, Username, Password, Employee ID, Email address, Department, Job title, Office, Phone number, Manager, Group memberships.
+- everything is stored inside Active Directory.
+- without user accounts: anyone could log into any computer, that's a security nightmare.
 
