@@ -196,3 +196,50 @@ USER ACCOUNT
 - everything is stored inside Active Directory.
 - without user accounts: anyone could log into any computer, that's a security nightmare.
 
+## DAY 6 
+
+## Security+: Cryptographic Concepts (Part 1)
+
+ENCRYPTION 
+
+- Encryption changes readable data (plaintext) into unreadable data (ciphertext).
+- Why? So if someone steals the data, they can't read it without the correct key.
+- Example: Imagine a patient's medical record is sent across a network.
+- Without encryption: Anyone intercepting it can read it.
+- With encryption: They only see scrambled data.
+
+HASHING
+
+- Hashing is NOT encryption.
+- Hashing is used to verify that data has not changed.
+- Example: You download a Windows ISO.
+- The publisher provides a hash.
+- You generate the hash of your downloaded file.
+- If the hashes match: The file has not been altered.
+
+DIGITAL SIGNATURE 
+
+- A digital signature proves: Who sent the data.
+- That the data wasn't modified after it was signed.
+- Think back to non-repudiation.
+- Digital signatures help provide it.
+
+DIGITAL CERTIFICATE 
+
+- A certificate proves the identity of a website or system.
+- Example: When you visit your bank's website and see the padlock 🔒 in your browser.
+- That website is using a digital certificate.
+It helps prove you're really talking to the bank.
+
+Encryption: Keeps data secret.
+Hashing: Detects changes.
+Digital Signature: Proves the sender and protects integrity.
+Certificate: Proves identity.
+
+## Active Directory 
+
+SECURITY GROUPS 
+
+- A security group is a collection of users, computers, or even other groups that all need the same permissions.
+- Instead of assigning permissions to individual users, you assign permissions to the group.
+- Security groups can control access to: Shared folders, Printers, Applications, Network shares, Files, Servers, Other resources. 
